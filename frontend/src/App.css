@@ -1,0 +1,180 @@
+body {
+  background-color: #1b1d1e;
+}
+
+
+button {
+  cursor: pointer;
+}
+
+input {
+  padding: 1rem;
+  width: 60%;
+  font-size: 1rem;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.start-container {
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo-start {
+  width: 10%;
+}
+
+.start-h1 {
+  color: white;
+}
+
+
+@media (max-width: 480px) {
+  .start-h1 {
+    font-size: 1rem;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.login-form {
+  width: 40rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+
+.login-logo {
+  position: absolute;
+    top: 6rem;
+    width: 3rem;
+    
+}
+
+.roles-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.btn {
+  width: 50%;
+  padding: 0.5rem;
+  margin: 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  color: rgb(67, 26, 26);
+  background-color: rgb(184, 173, 173);
+}
+
+.logout-btn {
+  position: absolute;
+  padding: 8px;
+  border-radius: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  left: 1rem;
+  top: 1rem;
+  border: none;
+}
+
+
+.text-heading {
+  position: absolute;
+  right: 1rem;
+  top: 0.2rem;
+  color: white;
+}
+.hello-heading {
+  position: absolute;
+  text-align: center;
+  top: 4rem;
+  color: white;
+}
+.heading {
+  position: absolute;
+  text-align: center;
+  top: 5rem;
+  color: white;
+}
+
+.camera-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 11rem;
+}
+
+.album-logo {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.camera-cap {
+  width: 50%;
+}
+
+.camera-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 368px;
+  font-size: 1em;
+  font-weight: 1000;
+  margin-top: 5rem;
+}
+
+.canvas {
+  display: none;
+}
+
+
+@media (max-width: 650px) {
+  .camera-cap {
+    width: 100%;
+  }
+}
+
+
+.album-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+  gap: 2rem;
+}
+.album-pic {
+  width: 100%;
+}
+
+.img-form {
+  width: 40%;
+  position: relative;
+}
+.remove-btn {
+  margin: 2px;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
